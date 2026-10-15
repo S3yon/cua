@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.35.4](https://github.com/trycua/cua/compare/cua-driver-rs-v0.35.4...cua-driver-rs-v0.35.4) (2026-10-15)
+
+
+### Features
+
+* **cua-driver:** publish isolated browser session lifetime in browser_prepare ([#5183](https://github.com/trycua/cua/issues/5183)) ([bf6ac21](https://github.com/trycua/cua/commit/bf6ac21d2d3c1ddcc015d981b681feb23758daa4))
+
+
+### Bug Fixes
+
+* **cua-driver, spacesd:** say why a Windows desktop can't be captured (locked, RDP disconnected) (CUA-1727) ([#5266](https://github.com/trycua/cua/issues/5266)) ([a0c06f2](https://github.com/trycua/cua/commit/a0c06f20239424b8a9be19468dd3b902944f8ac5))
+* **cua-driver:** advertise coordinate scrolling support ([#5149](https://github.com/trycua/cua/issues/5149)) ([f53daa6](https://github.com/trycua/cua/commit/f53daa6c2a6f1c04ccbcf57adabccd0d7d43bba8))
+* **cua-driver:** build macOS fixtures for the host architecture ([#5202](https://github.com/trycua/cua/issues/5202)) ([c93de1a](https://github.com/trycua/cua/commit/c93de1ae9c9164990564284b10405228ecd7f5a5))
+* **cua-driver:** drain autoreleased objects on SCK capture workers ([#5170](https://github.com/trycua/cua/issues/5170)) ([b6a8280](https://github.com/trycua/cua/commit/b6a8280d6ff719a94f22cac06bc6951a1bdb4b74))
+* **cua-driver:** honor --pid-file in cua-driver status ([#5246](https://github.com/trycua/cua/issues/5246)) ([bab00b7](https://github.com/trycua/cua/commit/bab00b7b4039ee0be89ee1c828268103fa8b87d5)), closes [#4689](https://github.com/trycua/cua/issues/4689)
+* **cua-driver:** let CUA_LOG=info and debug raise the log level ([3f70341](https://github.com/trycua/cua/commit/3f70341ee1e42c5b32e22c1ce1483ceeba0a5831))
+* **cua-driver:** list window rows in list_windows text content ([#5211](https://github.com/trycua/cua/issues/5211)) ([b346685](https://github.com/trycua/cua/commit/b346685ed00fe665fff014b7fdb5d18fba41adc8))
+* **cua-driver:** print actionable PATH install hints ([#5219](https://github.com/trycua/cua/issues/5219)) ([2e644e9](https://github.com/trycua/cua/commit/2e644e9f6540a77f70ab4e16a23b4e671b7c6129)), closes [#3004](https://github.com/trycua/cua/issues/3004)
+* **cua-driver:** refuse unconfirmed macOS Electron scrolls ([#5251](https://github.com/trycua/cua/issues/5251)) ([fca488d](https://github.com/trycua/cua/commit/fca488d88b30eb00c11dc4b2ea526b62c3886e02))
+* **cua-driver:** report actual browser delivery mode in public results ([#5222](https://github.com/trycua/cua/issues/5222)) ([6e48c33](https://github.com/trycua/cua/commit/6e48c3347a2d857ba47c5ec62e887fdf64ab65c0)), closes [#5220](https://github.com/trycua/cua/issues/5220)
+* **cua-driver:** report every layer when list_windows is given a pid ([#5162](https://github.com/trycua/cua/issues/5162)) ([e6bc5f9](https://github.com/trycua/cua/commit/e6bc5f93afe5d17b7c4c8ceaa4cbfd100830c0c7))
+* **cua-driver:** report Linux and Windows permissions status instead of "not granted" ([1ff756b](https://github.com/trycua/cua/commit/1ff756bd79856ef4c34b180ea1a6fb36ca368d73))
+* **cua-driver:** skip web content during Chrome consent scans ([#5216](https://github.com/trycua/cua/issues/5216)) ([3722b11](https://github.com/trycua/cua/commit/3722b11a4fe4879c5cf43fc540fd0f2e5108dfc6)), closes [#4630](https://github.com/trycua/cua/issues/4630)
+* **cua-driver:** stop a batched text before rebinding keycodes the client has not confirmed reading ([#5244](https://github.com/trycua/cua/issues/5244)) ([6d82b3b](https://github.com/trycua/cua/commit/6d82b3b1b21813ad047f966ab1384a1258c16170))
+* **cua-driver:** stop worker and embedded processes launching Orca on GNOME ([#5179](https://github.com/trycua/cua/issues/5179)) ([c2a42ea](https://github.com/trycua/cua/commit/c2a42eaaf723ed5aee6d9ee2e0fb0808c896c882))
+* **cua-driver:** type long Linux text in spare-keycode batches ([#5168](https://github.com/trycua/cua/issues/5168)) ([8be7052](https://github.com/trycua/cua/commit/8be7052a063aacb58c4d743b4e7efa3afd78143a))
+* **cua-driver:** wait for the client before restoring a borrowed keycode ([#5172](https://github.com/trycua/cua/issues/5172)) ([7e6db51](https://github.com/trycua/cua/commit/7e6db51b078e6b7572b0927a47ef3372854d3eba))
+
 ## [0.35.4](https://github.com/trycua/cua/compare/cua-driver-rs-v0.35.3...cua-driver-rs-v0.35.4) (2026-10-14)
 
 
